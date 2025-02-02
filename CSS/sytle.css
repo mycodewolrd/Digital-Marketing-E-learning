@@ -5,18 +5,15 @@
 
 /* Whatsapp Button */
 .wpbtn{
-    border: 1px solid #27AE60;
+    font-size: medium;
+    border: 2px solid #27AE60;
     padding: 10px 18px;
     color: #27AE60;
-    font-size: 16px;
-}
-
-.wpbtn i {
-    color: #27AE60;
+    transition: transform 0.5s ease-in-out;
 }
 
 .wpbtn:hover{
-    border: 1px solid #27AE60;
+    transform: scale(1.1);
 }
 
 
@@ -25,4 +22,10 @@
     padding: 10px 18px;
     color: white;
     background:linear-gradient(to right, #0ACEFE, #2699FB) ;
+    transition: transform 0.5s ease-in-out;
+}
+.callbtn:hover{
+    background:linear-gradient(to right, #2699FB, #0ACEFE) ;
+    transform: scale(1.1);
+    color: white;
 }
