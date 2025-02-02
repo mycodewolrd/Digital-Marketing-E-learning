@@ -1,6 +1,12 @@
 /* Desktop (large screens) */
 @media (min-width: 1400px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
         max-width: 1170px;
     }
 }
@@ -15,18 +21,41 @@
         position: fixed;
         bottom: 0;
         left: 0;
-        padding: 6px;
+        padding: 6px 0px;
         width: 100%;
         justify-content: center !important;
+        background-color: #fffdfd;
     }
 
-    .wpbtn, .callbtn {
+    .wpbtn,
+    .callbtn {
         padding: 10px 18px;
         font-size: 12px;
     }
+
+    .banner-content h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .banner-content h1 br {
+        display: none;
+    }
+
+    .banner-content p,
+    .banner-content ul li,
+    .banner-content ul li i {
+        font-size: 14px;
+    }
+
+    .banner-content-btn button {
+        width: 100%;
+    }
 }
 
-/* Tablet (medium screens)*/
+
+
+/* Tablet (Small Screens) */
 @media only screen and (min-width: 576px) and (max-width: 991px) {
     nav {
         position: relative;
@@ -38,24 +67,21 @@
     nav img {
         width: auto;
         max-width: 150px;
-        vertical-align: middle; /* Aligns logo with buttons */
+        vertical-align: middle;
     }
 
     .btn-grp {
         position: absolute;
-        right: 20px; /* Align buttons to the right */
+        right: 20px;
         top: 50%;
         transform: translateY(-50%);
         white-space: nowrap;
     }
 
-    .wpbtn, .callbtn {
+    .wpbtn,
+    .callbtn {
         display: inline-block;
         padding: 10px 18px;
         font-size: 14px;
     }
 }
-
-
-
-
