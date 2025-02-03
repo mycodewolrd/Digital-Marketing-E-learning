@@ -17,23 +17,18 @@ header {
     border: 2px solid #27AE60;
     padding: 10px 18px;
     color: #27AE60;
-    transition: transform 0.5s ease-in-out;
 }
 
-.wpbtn:hover {
-    transform: scale(1.1);
-}
 
 .callbtn {
     padding: 10px 18px;
     color: white;
     background: linear-gradient(to right, #0ACEFE, #2699FB);
-    transition: transform 0.5s ease-in-out;
+    border: 2px solid;
 }
 
 .callbtn:hover {
     background: linear-gradient(to right, #2699FB, #0ACEFE);
-    transform: scale(1.1);
     color: white;
 }
 
