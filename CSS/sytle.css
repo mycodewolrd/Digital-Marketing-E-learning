@@ -129,3 +129,16 @@ header {
 .banner-form button:hover {
     border: 2px solid #2699FB;
 }
+
+.counter-div{
+    background-color: #FFFFFF;
+}
+.counter-div h4 {
+  font-weight: 700;
+  color: #36a6d6;
+  font-size: 30px;
+}
+.counter-div p {
+  font-size: 14px;
+  font-weight: 400;
+}
