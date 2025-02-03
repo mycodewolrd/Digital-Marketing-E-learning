@@ -144,3 +144,31 @@ header {
     font-size: 14px;
     font-weight: 400;
 }
+
+.highlights-section{
+    background-color: #F7FAFF;
+}
+
+.highlights-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0A2134;
+}
+
+.highlights-section p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #0A2134;
+}
+
+.highlight-items h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0A2134;
+}
+
+.highlight-items p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #43505B;
+}
