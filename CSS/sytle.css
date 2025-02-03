@@ -130,15 +130,17 @@ header {
     border: 2px solid #2699FB;
 }
 
-.counter-div{
+.counter-section {
     background-color: #FFFFFF;
 }
-.counter-div h4 {
-  font-weight: 700;
-  color: #36a6d6;
-  font-size: 30px;
+
+.counter-section h4 {
+    font-weight: 700;
+    color: #36a6d6;
+    font-size: 30px;
 }
-.counter-div p {
-  font-size: 14px;
-  font-weight: 400;
+
+.counter-section p {
+    font-size: 14px;
+    font-weight: 400;
 }

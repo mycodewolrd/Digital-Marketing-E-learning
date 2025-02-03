@@ -52,13 +52,13 @@
         width: 100%;
     }
 
-    .counter-div h4 {
+    .counter-section h4 {
         font-weight: 800;
         color: #36a6d6;
         font-size: 25px;
     }
 
-    .counter-div p {
+    .counter-section p {
         font-size: 12px;
         font-weight: 400;
     }
