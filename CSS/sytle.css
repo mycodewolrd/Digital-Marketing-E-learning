@@ -1,18 +1,18 @@
-*{
+* {
     font-family: "Inter", sans-serif;
 }
 
 html {
-  overflow-x: hidden !important;
+    overflow-x: hidden !important;
 }
 
-header{
+header {
     z-index: 1030;
     background-color: #fffdfd;
 }
 
 /* navbar */
-.wpbtn{
+.wpbtn {
     font-size: medium;
     border: 2px solid #27AE60;
     padding: 10px 18px;
@@ -20,75 +20,112 @@ header{
     transition: transform 0.5s ease-in-out;
 }
 
-.wpbtn:hover{
+.wpbtn:hover {
     transform: scale(1.1);
 }
 
-.callbtn{
+.callbtn {
     padding: 10px 18px;
     color: white;
-    background:linear-gradient(to right, #0ACEFE, #2699FB) ;
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
     transition: transform 0.5s ease-in-out;
 }
-.callbtn:hover{
-    background:linear-gradient(to right, #2699FB, #0ACEFE) ;
+
+.callbtn:hover {
+    background: linear-gradient(to right, #2699FB, #0ACEFE);
     transform: scale(1.1);
     color: white;
 }
 
 
 
-/* Banner */
-.banner-content h1{
+/* Banner content*/
+.banner-content h1 {
     font-size: 52px;
     font-weight: 700;
 }
-.banner-content h1 span{
+
+.banner-content h1 span {
     color: #2699FB;
     background: url(../Images/zigzag.png) no-repeat bottom;
 }
 
-.banner-content p{
+.banner-content p {
     font-size: 22px;
     font-weight: 400;
     color: #0A2134;
 }
 
-.banner-content ul{
+.banner-content ul {
     list-style: none;
 }
 
-.banner-content ul li{
+.banner-content ul li {
     font-size: 22px;
     font-weight: 400;
     color: #0A2134;
 }
 
-.banner-content ul li i{
+.banner-content ul li i {
     color: #2699FB;
     font-size: 22px;
 }
 
 
-.banner-content-btn button{
+.banner-content-btn button {
     width: 50%;
     padding: 10px 0px;
     border-radius: 7px;
     transition: transform 0.5s ease-in-out;
 }
 
-.banner-content-btn .demo-btn{
+.banner-content-btn .demo-btn {
     background: linear-gradient(to right, #0ACEFE, #2699FB);
     color: white;
     border: 0;
 }
 
-.banner-content-btn .dnld-btn{
+.banner-content-btn .dnld-btn {
     background: #FFFFFF;
     color: #0A2134;
     border: 3px solid #D0D5DD;
 }
 
-.banner-content-btn button:hover{
+.banner-content-btn button:hover {
     transform: scale(1.1)
-};
+}
+
+;
+
+/* Banner Form */
+
+.banner-form {
+    padding: 40px;
+}
+
+.banner-div {
+    padding: 40px;
+}
+
+.bannerForm h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bannerForm p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.banner-form button {
+    width: 100%;
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    font-weight: 700;
+    background: linear-gradient(to right, #5ed6f4, #5299f6);
+}
+
+.banner-form button:hover {
+    border: 2px solid #2699FB;
+}
