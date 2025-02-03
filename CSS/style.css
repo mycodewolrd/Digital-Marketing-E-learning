@@ -175,9 +175,11 @@ header {
     color: #FFFFFF;
     background: linear-gradient(to right, #0ACEFE, #2699FB);
     border: 1px solid ;
+    transition: transform 0.5s ease-in-out;
 }
 
 .highlights-section-btn:hover{
-    background: linear-gradient(to right, #2699FB, #0ACEFE);
     color: #FFFFFF;
+    transform: scale(1.1);
+
 }
