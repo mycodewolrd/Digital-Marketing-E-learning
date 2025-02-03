@@ -6,6 +6,11 @@ html {
   overflow-x: hidden !important;
 }
 
+header{
+    z-index: 1030;
+    background-color: #fffdfd;
+}
+
 /* navbar */
 .wpbtn{
     font-size: medium;
