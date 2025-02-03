@@ -139,7 +139,6 @@
             </div>
 
             <div class="row gy-4 row-cols-md-2 row-cols-lg-3 row-cols-1">
-
                 <div class="col">
                     <div class="highlight-items bg-white p-3 d-flex align-items-start justify-content-center gap-3">
                         <img src="./Images/highlight img1.png" alt="test paper logo">
@@ -163,7 +162,7 @@
                         <img src="./Images/highlight img3.png" alt="live video logo">
                         <div>
                             <h5>Live classes & recorded lectures</h5>
-                            <p>Best of both worlds of learning</p>
+                            <p>Best worlds of learning</p>
                         </div>
                     </div>
                 </div>
@@ -195,6 +194,53 @@
                     </div>
                 </div>
             </div>
+
+            <div class="d-flex w-100 justify-content-center mt-5">
+                <button type="submit" data-bs-toggle="modal" data-bs-target="#classBookingModal"
+                    class="btn highlights-section-btn" py-4 px-5 align-items-center ">Book Free Class</button>
+            </div>
+
+
+            <!-- Modal -->
+            <div class=" modal fade" id="classBookingModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Book Your Free Class Now!</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="banner-form p-3 rounded-3">
+                                        <div class="mb-3">
+                                            <label class="form-label">Name</label>
+                                            <input type="text" required class="form-control opacity-75"
+                                                placeholder="Enter your name" />
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Email</label>
+                                            <input type="email" required class="form-control opacity-75"
+                                                placeholder="Enter your email " />
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Phone</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1">+91</span>
+                                                <input type="number" class="form-control opacity-75"
+                                                    placeholder="Enter your mobile number" required />
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <button class="btn">Book Now</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+
         </div>
     </section>
 

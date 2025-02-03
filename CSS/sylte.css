@@ -128,6 +128,7 @@ header {
 
 .banner-form button:hover {
     border: 2px solid #2699FB;
+    color: white;
 }
 
 .counter-section {
@@ -146,7 +147,7 @@ header {
 }
 
 .highlights-section{
-    background-color: #F7FAFF;
+    background-color: #ecf4f6e8;
 }
 
 .highlights-section h2 {
@@ -171,4 +172,17 @@ header {
     font-size: 15px;
     font-weight: 400;
     color: #43505B;
+}
+
+.highlights-section-btn{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    border: 1px solid ;
+}
+
+.highlights-section-btn:hover{
+    background: linear-gradient(to right, #2699FB, #0ACEFE);
+    color: #FFFFFF;
 }
