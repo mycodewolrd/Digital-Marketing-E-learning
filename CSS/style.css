@@ -213,35 +213,62 @@ header {
     color: #43505B;
 }
 
-
-/* .rectangle-box {
-    position: absolute;
-    background-color: #ef4848;
-    border-radius: 8px;
-    border: 1px solid #F2F4F7;
-    box-shadow: 0px 4px 80px -2px #002F58;
-    opacity: 0.08;
-    height: 639px;
-    width: 468px;
-} */
-
-/* .certificate-img {
-    position: absolute;
-    padding: 10px 10px;
-    bottom: 3%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: auto;
-    height: auto;
-    z-index: 1;
-} */
-
-
-.certificate-box{
+.certificate-box {
     background: url(../Images/dot\ pixel\ img.png) no-repeat;
     padding: 30px 0 0 30px;
 }
 
-.certificate-img{
+.certificate-img {
     border: 15px solid #b3cdfb;
 }
+
+
+/* FAQS Section */
+
+.FAQS-section {
+    background-color: #F7FAFF;
+}
+
+.FAQS-section h3 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 700;
+    color: #0A2134;
+}
+
+.FAQS-section p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #43505B;
+}
+
+.accordion-item {
+    margin-bottom: 16px;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    border-radius: 8px;
+    border: 5px solid #ccf0f97b;
+}
+
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #23b4d9;
+    font-weight: 700;
+    font-size: 22px;
+    background-color: transparent;
+}
+.accordion-body{
+    color: #43505B;
+    font-size: 14px;
+}
+
+/* .accordion-item {
+    border: 5px solid #ccf0f97b;
+    
+} */
+
+
