@@ -266,9 +266,27 @@ header {
     font-size: 14px;
 }
 
-/* .accordion-item {
-    border: 5px solid #ccf0f97b;
-    
-} */
 
+
+/* Why Learn Section */
+.why-learn-section{
+    background-color: #F7FAFF;
+}
+.why-learn-box{
+    background: #FFFFFF;
+    border: 1px solid #F2F4F7;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+}
+.why-learn-box h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0A2134;
+}
+.why-learn-box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #43505B;
+}
 
