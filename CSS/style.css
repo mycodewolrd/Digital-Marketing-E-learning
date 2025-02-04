@@ -6,16 +6,16 @@ html {
     overflow-x: hidden !important;
 }
 
-.book-modal-btn{
+.book-modal-btn {
     font-size: 20px;
     font-weight: 700;
     color: #FFFFFF;
     background: linear-gradient(to right, #0ACEFE, #2699FB);
-    border: 1px solid ;
+    border: 1px solid;
     transition: transform 0.5s ease-in-out;
 }
 
-.book-modal-btn:hover{
+.book-modal-btn:hover {
     color: #FFFFFF;
     transform: scale(1.1);
 
@@ -155,7 +155,7 @@ header {
     font-weight: 400;
 }
 
-.highlights-section{
+.highlights-section {
     background-color: #ecf4f6e8;
 }
 
@@ -171,13 +171,13 @@ header {
     color: #0A2134;
 }
 
-.highlight-items h5{
+.highlight-items h5 {
     font-size: 20px;
     font-weight: 600;
     color: #0A2134;
 }
 
-.highlight-items p{
+.highlight-items p {
     font-size: 15px;
     font-weight: 400;
     color: #43505B;
@@ -185,7 +185,7 @@ header {
 
 
 /* Certificate Demo Section */
-.certificate-section{
+.certificate-section {
     background-color: #F7FAFF;
 }
 
@@ -201,14 +201,47 @@ header {
     color: #0A2134;
 }
 
-.cards h4{
+.cards h4 {
     font-size: 20px;
     font-weight: 600;
     color: #0A2134;
 }
 
-.cards p{
+.cards p {
     font-size: 16px;
     font-weight: 400;
     color: #43505B;
+}
+
+
+/* .rectangle-box {
+    position: absolute;
+    background-color: #ef4848;
+    border-radius: 8px;
+    border: 1px solid #F2F4F7;
+    box-shadow: 0px 4px 80px -2px #002F58;
+    opacity: 0.08;
+    height: 639px;
+    width: 468px;
+} */
+
+/* .certificate-img {
+    position: absolute;
+    padding: 10px 10px;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    height: auto;
+    z-index: 1;
+} */
+
+
+.certificate-box{
+    background: url(../Images/dot\ pixel\ img.png) no-repeat;
+    padding: 30px 0 0 30px;
+}
+
+.certificate-img{
+    border: 15px solid #b3cdfb;
 }
