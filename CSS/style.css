@@ -223,7 +223,56 @@ header {
 }
 
 
+/* Curriculum Section */
+.curriculum-section h3 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 700;
+    color: #0A2134;
+}
 
+.curriculum-section p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #43505B;
+}
+
+.curriculum-section .nav-pills .nav-item .nav-link {
+  font-weight: 600;
+  font-size: 14px;
+  color: #5f5e5e;
+  margin-right: 20px;
+  padding: 2px 10px 2px;
+  margin-bottom: 20px;
+  background-color: #eaffff;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: transparent;
+  border: 5px solid #67d7f6;
+  border-radius: 100px;
+  border-top: 0;
+  border-bottom: 1px solid #67d7f6;
+}
+.curriculum-section .tab-content ul li  {
+  list-style: none;
+
+}
+.curriculum-section .tab-content ul{
+  margin: 0;
+  padding: 0;
+}
+.curriculum-section .case-studies-list p {
+  font-size: 12px;
+  font-weight: 400;
+  
+  
+}
+.curriculum-section .introduction-container li{
+  font-size: 14px;
+  
+}
 
 
 
