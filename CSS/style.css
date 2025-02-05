@@ -326,9 +326,6 @@ header {
 }
 
 
-
-
-
 /* FAQS Section */
 .FAQS-section {
     background-color: #F7FAFF;
@@ -378,4 +375,20 @@ header {
     font-size: 36px;
     font-weight: 700;
     color: #0A2134;
+}
+
+/* Footer */
+footer{
+    background-color: #294868;
+}
+
+footer p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer a {
+  text-decoration: none;
 }
